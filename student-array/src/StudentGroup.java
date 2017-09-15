@@ -292,13 +292,8 @@ public class StudentGroup implements StudentArrayOperation {
          {
             throw new IllegalArgumentException;
          }
-           else{
-              
-              LocalDate today=LocalDate.now();
-
-               LocalDate birthday=LocalDate.of(int year,Month month,int dayOfMonth);
-                }
-             return today;
+           
+             return 0;
            }           
           
 	@Override
