@@ -292,17 +292,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student[] getStudentsByAge(int age) {
 		// Add your implementation here
-        Student[] students1=new Student[students.length];
-		int check=0;
-		if(age==null)
-			throw new IllegalArgumentException();
-		else
-		{
-		long ageInMillis=new Date().getTime().getBirthDate().getTime();
-                Date age=new Date(ageInMillis);	
-                return age.getYear();
-
-		//return null;
+               return null;
 	}
 
 	@Override
