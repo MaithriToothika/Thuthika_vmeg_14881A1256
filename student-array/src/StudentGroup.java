@@ -286,8 +286,19 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public int getCurrentAgeByDate(int indexOfStudent)throws IllegalArgumentException {
 		// Add your implementation here
-		return 0;
-	}
+         public int find(double[] students,double value)
+          {
+            for(int i=0;i<students.length;i++)
+              {
+                if(int i=0;i<students.length;i++)
+                {
+                   if(students[i] == value)
+           
+		   return i;
+                }
+              }
+	   }
+         }
 
 	@Override
 	public Student[] getStudentsByAge(int age) {
