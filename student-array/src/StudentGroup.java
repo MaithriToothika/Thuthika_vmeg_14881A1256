@@ -287,17 +287,18 @@ public class StudentGroup implements StudentArrayOperation {
 	public int getCurrentAgeByDate(int indexOfStudent)throws IllegalArgumentException {
 		// Add your implementation here
            Student[] students1=new Student[students.length];
+            Arrays.asList(students1).indexOf(students[i]);
            if(indexOfStudent == 0)
          {
             throw new IllegalArgumentException;
          }
            else{
-               Arrays.asList(array).indexOf(students[i]);
+              
               LocalDate today=LocalDate.now();
 
                LocalDate birthday=LocalDate.of(int year,Month month,int dayOfMonth);
                 }
-             return students1;
+             return students[i];
            }           
           
 	@Override
