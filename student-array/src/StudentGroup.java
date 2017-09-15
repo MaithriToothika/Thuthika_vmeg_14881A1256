@@ -286,20 +286,20 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public int getCurrentAgeByDate(int indexOfStudent)throws IllegalArgumentException {
 		// Add your implementation here
-         public int find(double[] students,double value)
-          {
-            for(int i=0;i<students.length;i++)
-              {
-                if(int i=0;i<students.length;i++)
-                {
-                   if(students[i] == value)
-           
-		   return i;
-                }
-              }
-	   }
+           Student[] students1=new Student[students.length];
+           if(indexOfStudent == 0)
+         {
+            throw new IllegalArgumentException;
          }
+           else{
+               Arrays.asList(array).indexOf(students[i]);
+              LocalDate today=LocalDate.now();
 
+               LocalDate birthday=LocalDate.of(int year,Month month,int dayOfMonth);
+                }
+             return students1;
+           }           
+          
 	@Override
 	public Student[] getStudentsByAge(int age) {
 		// Add your implementation here
