@@ -298,7 +298,7 @@ public class StudentGroup implements StudentArrayOperation {
 
                LocalDate birthday=LocalDate.of(int year,Month month,int dayOfMonth);
                 }
-             return students[i];
+             return today;
            }           
           
 	@Override
